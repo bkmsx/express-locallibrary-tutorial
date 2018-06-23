@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to my #[strong site]
+
+  h1 Dynamic content
+
+  if error 
+    p Error getting dynamic content
+  else 
+    p The library has the following record counts:
+
+    ul
+      li Books: !{data.book_count}
+      li Copies: !{data.book_instance_count}
+      li Copies available: !{data.book_instance_available_count}
+      li Authors: !{data.author_count}
+      li Genres: !{data.genre_count}
