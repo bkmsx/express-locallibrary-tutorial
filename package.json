@@ -22,7 +22,8 @@
     "npm": "^6.1.0",
     "pug": "2.0.0-beta11",
     "serve-favicon": "~2.4.5",
-    "sync": "^0.2.5"
+    "sync": "^0.2.5",
+    "express-validator": "5.2.0"
   },
   "devDependencies": {
     "nodemon": "^1.17.5"
